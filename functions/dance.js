@@ -18,12 +18,10 @@ const PetDance = () =>{
     const Message = () => {
         return string;
     }
-   
     return{
         Energy,
         Dance,
         SimulateDance,
         Message
     }
-
 }

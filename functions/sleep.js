@@ -1,5 +1,4 @@
 const PetSleeps = () =>{
-
     let importedEnergy = PetDance();
     let energy = importedEnergy.Energy();
     let sleep = 50;
@@ -10,7 +9,7 @@ const PetSleeps = () =>{
     const SimulateSleep = () =>{
         if(energy){
            energy += sleep;
-        }else if( energy > 10){
+        }else if( energy < 10){
             string
         }     
     }
@@ -27,6 +26,4 @@ const PetSleeps = () =>{
         Sleep,
         Message2
     }
-
-
 }
