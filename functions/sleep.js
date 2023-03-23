@@ -2,7 +2,6 @@ const PetSleeps = () =>{
     let importedEnergy = PetDance();
     let energy = importedEnergy.Energy();
     let sleep = 50;
-    let string = 'I am hungry , can you feed me'
     const Sleep = ()=>{
         return (sleep/100) * 100;
     }
@@ -13,9 +12,6 @@ const PetSleeps = () =>{
             string
         }     
     }
-    const Message2 = () =>{
-        return string;
-    }
     const UpEnergy = () =>{
         return energy;
 
@@ -23,7 +19,6 @@ const PetSleeps = () =>{
     return {
        UpEnergy,
         SimulateSleep,
-        Sleep,
-        Message2
+        Sleep
     }
 }
