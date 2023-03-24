@@ -28,8 +28,7 @@ describe('Testing the Tamagotchi Dance Moves', () =>{
         pet_moves.SimulateDance();
         pet_moves.SimulateDance();
         pet_moves.SimulateDance();
-        pet_moves.SimulateDance();
-        pet_moves.SimulateDance();
-        assert.equal('I want to sleep, I have ran out of energy...', pet_moves.Message());
+        
+        assert.equal('I want to sleep, I have ran out of energy...', pet_moves.SimulateDance());
     });
 });
