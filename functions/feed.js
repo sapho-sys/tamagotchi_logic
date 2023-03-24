@@ -10,8 +10,13 @@ const PetFeeds = () =>{
         return Hunger <= 90 ? Hunger -= Feed : string
     }
 
+    const PetFed = () =>{
+        return Hunger;
+    }
+
     return {
         Feeding,
-        SimulateFeed
+        SimulateFeed,
+        PetFed
     }
 }

@@ -10,7 +10,7 @@ describe('Testing the Tamagotchi Dance Moves', () =>{
         pet_moves.SimulateDance();
         assert.equal(80, pet_moves.Energy());
     });
-    it('When the Pet Dances for the second time, the ENERGY bar should decrease to 70%', ()=>{
+    it('When the Pet Dances for the third time, the ENERGY bar should decrease to 70%', ()=>{
         let pet_moves = PetDance();
         pet_moves.SimulateDance();
         pet_moves.SimulateDance();
