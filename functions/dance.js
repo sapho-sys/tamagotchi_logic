@@ -12,7 +12,7 @@ const PetDance = () =>{
         return energy > 10 ? energy -= dance : Message();
     }
     const Message = () =>{
-        return  energy <= 10 ? string : "I am not tired";
+        return  energy <= 10 ? string : null;
     }
     return{
         Energy,
